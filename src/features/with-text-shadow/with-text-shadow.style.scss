@@ -1,0 +1,6 @@
+.with-text-shadow {
+  &,
+  > .wp-block-button__link {
+    text-shadow: var(--be--text-shadow);
+  }
+}

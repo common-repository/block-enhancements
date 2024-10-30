@@ -1,0 +1,24 @@
+.with-font-size {
+  &,
+  > .wp-block-button__link {
+    font-size: var(--be--font-size) !important;
+  }
+}
+.with-line-height {
+  &,
+  > .wp-block-button__link {
+    line-height: var(--be--line-height) !important;
+  }
+}
+.with-font-weight {
+  &,
+  > .wp-block-button__link {
+    font-weight: var(--be--font-weight) !important;
+  }
+}
+.with-letter-spacing {
+  &,
+  > .wp-block-button__link {
+    letter-spacing: var(--be--letter-spacing) !important;
+  }
+}

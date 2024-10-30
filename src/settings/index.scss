@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+  .bb-settings-header + #wpbody {
+    padding-top: 0;
+  }
+}
+
+.bb-settings-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 25px 0 20px 20px;
+  margin-left: -20px;
+  background-color: #fff;
+  border-bottom: 1px solid #c3c4c7;
+
+  > h1 {
+    margin: 0;
+  }
+
+  ul {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 1em;
+    margin: 0;
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      padding: 4px 0;
+      display: block;
+    }
+
+    .dashicons {
+      text-decoration: none;
+    }
+  }
+
+  .go-premium {
+    color: #fff;
+    background-color: #d20962;
+    border-radius: 4px;
+
+    a {
+      padding: 4px 12px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: #ab0852;
+    }
+  }
+}
+
+.bb-settings {
+  margin-top: 0;
+}
+
+.settings-tabs {
+  .components-tab-panel__tabs {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #c3c4c7;
+  }
+
+  .components-tab-panel__tabs-item {
+    height: 50px;
+    font-size: 1.3em;
+
+    &:focus:not(:disabled),
+    &.is-active {
+      box-shadow: 0 0 0 var(--wp-admin-border-width-focus) transparent,inset 0 -2px 0 0 var(--wp-admin-theme-color)
+    }
+  }
+
+  .components-tab-panel__tab-content {
+    .metabox-holder:first-of-type {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+
